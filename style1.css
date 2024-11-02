@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    justify-content: center;
+    align-items: center;
+    top: 5%;
+    padding: 20px;
+    text-shadow: 1.5px 1.5px 2px;
+}
+
+.div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+}
+
+.flex-container {
+    display: flex;
+    width: 650px;
+    height: 150px;
+    flex-grow: 1;
+    padding: 20px;
+    gap: 2px;
+}
+
+.flex-child1 {
+    flex-grow: 1;
+    font-size: 1.5rem;
+    background-color: blue;
+}
+
+.flex-child2 {
+flex-grow: 2;
+font-size: 1.5rem;
+background-color: red;
+}
+ 
+.flex-child3 {
+flex-grow: 0;
+font-size: 1.5rem;
+background-color: rgb(15, 117, 15);
+}
+
+
+
